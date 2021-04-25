@@ -9,10 +9,10 @@ html{
     background-image: url(corona-5071996_1920.jpg);
 }
 
-body{
+/* body{
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
-}
+} */
 
 ul{
     list-style: none;
@@ -37,6 +37,8 @@ section{
     background: url('corona-5071996_1920.jp') no-repeat top center / cover;
     overflow: hidden;
 }
+
+
 
 .overlay{
     position: absolute;
@@ -290,6 +292,8 @@ section{
 #check:checked ~ .hamburger-menu-container .hamburger-menu div:after{
     transform: translateY(0) rotate(45deg);
 }
+
+
 
 @keyframes animation{
     from{
